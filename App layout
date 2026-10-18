@@ -1,0 +1,5 @@
+import "./globals.css"
+export const metadata = { title: "K-Billing ISP Manager", description: "ISP Billing with M-Pesa, Maps, RouterOS" }
+export default function RootLayout({ children }) {
+  return <html lang="en"><body>{children}</body></html>
+}
