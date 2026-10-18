@@ -1,0 +1,12 @@
+module.exports = {
+  content: ["./app/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        'kb-blue': '#0A2A5A',
+        'kb-green': '#00A651',
+      }
+    }
+  },
+  plugins: []
+}
