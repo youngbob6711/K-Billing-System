@@ -1,0 +1,2 @@
+export const metadata = { title: 'K-Billing ISP - Nairobi | Technician Kioko' }
+export default function RootLayout({children}){ return (<html lang="en"><head><script src="https://cdn.tailwindcss.com"></script></head><body className="bg-[#F6F8FB]">{children}</body></html>) }

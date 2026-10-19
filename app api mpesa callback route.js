@@ -1,0 +1,1 @@
+export async function POST(req){ return Response.json({ResultCode:0,ResultDesc:'Accepted'}) }

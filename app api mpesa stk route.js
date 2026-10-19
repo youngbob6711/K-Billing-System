@@ -1,0 +1,2 @@
+import { stkPush } from '@/lib/mpesa'
+export async function POST(req){ const {phone,amount}=await req.json(); const fmt=phone.startsWith('0')?'254'+phone.slice(1):phone; const r=await stkPush(fmt,amount); return Response.json(r) }
